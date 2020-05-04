@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="135.321624">
+<testcase classname="Amazon Checkout" name="Only registered user should be able to checkout after adding items to basket" time="135.321624">
+<system-out><![CDATA[Then user should see the amazon logo........................................passed
+Then User searches and adds the available cheapest price to the basket......passed
+Then User verifies the basket is calculated correctly.......................passed
+When User try to checkout...................................................passed
+Then User is getting redirected to SignIn Page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

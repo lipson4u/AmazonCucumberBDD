@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User opens browser and navigates to Application URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 164371669,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should see the amazon logo",
+            "match": {
+              "location": "checkoutstepdefinition.i_should_see_the_amazon_logo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7829520777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "checkoutstepdefinition.Setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Only registered user should be able to checkout after adding items to basket",
+        "description": "",
+        "id": "amazon-checkout;only-registered-user-should-be-able-to-checkout-after-adding-items-to-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 853047829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "checkoutstepdefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125241608062,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searches and adds the available cheapest price to the basket",
+            "match": {
+              "location": "checkoutstepdefinition.user_searches_for_Cheapest_Snickers_and_Skittles(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Item"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Snickers"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Skittles"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 198705900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verifies the basket is calculated correctly",
+            "match": {
+              "location": "checkoutstepdefinition.user_verifies_the_basket_is_calculated_correctly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003968604,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User try to checkout",
+            "match": {
+              "location": "checkoutstepdefinition.user_try_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30401082,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is getting redirected to SignIn Page",
+            "match": {
+              "location": "checkoutstepdefinition.user_is_getting_redirected_to_SignIn_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Checkout",
+    "description": "",
+    "id": "amazon-checkout",
+    "keyword": "Feature",
+    "uri": "src/main/java/amazon/feature/amazonregistration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sanity"
+      }
+    ]
+  }
+]
