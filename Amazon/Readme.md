@@ -36,7 +36,12 @@
 9. Add the values of the selected product 
 10. Repeat the steps from step 2 for next item.
 
+# Console Output
 ![Image description](https://github.com/lipson4u/AmazonCucumberBDD/blob/master/Amazon/src/main/resource/sampleoutput.jpg)
+
+# HTML Report
+![Image description](https://github.com/lipson4u/AmazonCucumberBDD/blob/master/Amazon/src/main/resource/htmlreport.jpg)
+
 
 # Structure
 
