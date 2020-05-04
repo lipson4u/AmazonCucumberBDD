@@ -36,7 +36,7 @@
 9. Add the values of the selected product 
 10. Repeat the steps from step 2 for next item.
 
-![Image description](\\src//main//resource//sampleoutput.jpg)
+![Image description](https://github.com/lipson4u/AmazonCucumberBDD/blob/master/Amazon/src/main/resource/sampleoutput.jpg)
 
 # Structure
 
